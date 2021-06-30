@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   springboot:
-    image: manisl339/sringboot:${buildno}
+    image: manisl339/boots:${buildno}
     restart: always # This will be ignored if we deploy in docker swarm
     
     ports:
