@@ -5,7 +5,8 @@ spring:
       port: 27017
       username: ${MONGO_DB_USERNAME}
       password: ${MONGO_DB_PASSWORD}
-      database: users
+      Buildno=${buildno}
+     database: users
       authentication-database: admin
 
 server:
