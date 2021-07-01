@@ -5,7 +5,7 @@ services:
     - MONGO_DB_HOSTNAME=mongo
     - MONGO_DB_USERNAME=devdb
     - MONGO_DB_PASSWORD=devdb123
-    - Buildno=BUILD_NUMBER
+    
   mongo:
     environment:
     - MONGO_INITDB_ROOT_USERNAME=devdb
